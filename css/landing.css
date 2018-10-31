@@ -1,9 +1,26 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .header {
-  height: 635px;
+  padding-top: 80px;
   background-color: #e3e0e0;
+}
+.header .content {
+  padding: 30px 0;
 }
 .header .content h1 {
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content-sub {
+  margin-left: 84px;
+  margin-top: 90px;
+}
+
+.img-responsive-computer {
+  width: 100%;
 }
 
 .assess {
@@ -16,6 +33,7 @@
   padding: 15px 5px;
   border: 2px solid #f07000;
   border-radius: 10px;
+  width: 300px;
 }
 
 .footer {
@@ -40,6 +58,11 @@
 .footer .btn {
   border-radius: 0;
   padding: 13px;
+  margin-bottom: 10px;
+}
+
+.content-sub-two {
+  padding: 20px;
 }
 
 /*Form*/
@@ -67,6 +90,7 @@ input {
 .form-control {
   padding-left: 40px;
   height: 42px;
+  border: none;
 }
 
 .form-control + .glyphicon {
@@ -82,6 +106,22 @@ input {
 
 .glyphicon:before {
   color: #a5abc7;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.list-image li {
+  list-style-image: url("../image/layer-15.png");
+  font-size: 20px;
+}
+
+@media (min-width: 550px) {
+  .img-responsive-computer {
+    width: 60%;
+    margin-left: 170px;
+  }
 }
 
 /*# sourceMappingURL=landing.css.map */
