@@ -1,0 +1,93 @@
+$color-background: #e3e0e0;
+$color-white: #ffffff;
+$color-orange: #f07000;
+
+
+
+.header{
+    height: 635px;
+    background-color: $color-background;
+
+    .content{
+        h1{
+            text-transform: uppercase;
+        }
+       
+    }
+
+}
+
+.assess{
+    background-color: $color-white;
+    height: 600px;
+}
+
+.free-week{
+        font-weight: bold;
+        padding: 15px 5px;
+        border: 2px solid $color-orange;
+        border-radius: 10px;
+}
+
+.footer{
+    background-image: url('../image/layer-750.png');
+    background-size: cover;
+    background-color: $color-background;
+
+    .padding{
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    h1{
+        color: #ffffff;
+    }
+    .btn-register{
+        color: #ffffff;
+        background-color: $color-orange;
+    }
+    .btn-register-employer{
+        background-color: $color-background;
+    }
+    .btn{
+        border-radius: 0;
+        padding: 13px;
+    }
+}
+
+/*Form*/
+.form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: none;
+		background: #fff;
+		box-shadow: none;
+		height: 36px;
+		-webkit-box-shadow: 1px 1px 2px 0px rgba(104, 104, 104, 0.4);
+		   -moz-box-shadow: 1px 1px 2px 0px rgba(104, 104, 104, 0.4);
+				box-shadow: 1px 1px 2px 0px rgba(104, 104, 104, 0.4);
+
+ }
+.form-control {
+    padding-left: 40px;
+    height: 42px;
+}
+
+.form-control + .glyphicon {
+    position: absolute;
+    left: 0;
+    top: 13%;
+    padding: 8px 0 0 12px;
+}
+.form-group{
+    position: relative;
+}
+.glyphicon:before{
+    color: #a5abc7;
+}
