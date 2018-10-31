@@ -33,7 +33,8 @@ body {
   padding: 15px 5px;
   border: 2px solid #f07000;
   border-radius: 10px;
-  width: 300px;
+  width: 400px;
+  font-size: 20px;
 }
 
 .footer {
